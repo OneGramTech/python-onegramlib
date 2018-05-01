@@ -3,12 +3,6 @@ Python Library for OneGram
 
 Python 3 library for OneGram!
 
-**Stable**
-
-[![PyPI](https://img.shields.io/pypi/dm/graphenelib.svg?maxAge=2592000)]()
-[![PyPI](https://img.shields.io/pypi/dw/graphenelib.svg?maxAge=2592000)]()
-[![PyPI](https://img.shields.io/pypi/dd/graphenelib.svg?maxAge=2592000)]()
-
 Installation
 ------------
 
