@@ -18,7 +18,7 @@ setup(
     version=VERSION,
     description='Python library for onegram-based blockchains',
     long_description=open('README.md').read(),
-	download_url='https://https://gitlab.com/onegram-developers/python-onegramlib/-/archive/' + VERSION + '/python-onegramlib-' + VERSION + '.zip',
+	download_url='https://gitlab.com/onegram-developers/python-onegramlib/-/archive/' + VERSION + '/python-onegramlib-' + VERSION + '.zip',
     author='Frantisek Horvath',
     author_email='frantisek.horvath@01cryptohouse.com',
     maintainer='Frantisek Horvath',
