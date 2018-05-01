@@ -1,4 +1,4 @@
-image: python:2.7
+image: python:3.5
 
 variables:
   PYPI_USER: SECURE
@@ -14,7 +14,8 @@ deploy_pypi:
     - echo "[server-login]" >> ~/.pypirc
     - echo "username=" ${PYPI_USER} >> ~/.pypirc
     - echo "password=" ${PYPI_PASSWORD} >> ~/.pypirc
-    - python setup.py check sdist bdist upload
+    - python3 setup.py check sdist upload -r pypi
+    - python3 setup.py bdist_wheel upload
     - echo "" > ~/.pypirc && rm ~/.pypirc
   only:
     - /^v\d+\.\d+\.\d+([abc]\d*)?$/  # PEP-440 compliant
