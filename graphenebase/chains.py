@@ -1,9 +1,12 @@
-default_prefix = "GPH"
+default_prefix = "OGC"
 
-known_chains = {"GPH": {"chain_id": "b8d1603965b3eb1acba27e62ff59f74efa3154d43a4188d381088ac7cdf35539",
-                        "core_symbol": "CORE",
-                        "prefix": "GPH"},
-                "TEST": {"chain_id": "39f5e2ede1f8bc1a3a54a7914414e3779e33193f1f5693510e73cb7a87617447",
-                         "core_symbol": "TEST",
-                         "prefix": "TEST"}
-                }
+known_chains = {
+    "OGC_TEST_1": {
+        "chain_id": "07c858cd6269468dee18afad8630d18488408c8ed794db31c5a7cd48426bb295",
+        "core_symbol": "OGC",
+        "prefix": "OGC"},
+    "OGC_TEST_2": {
+        "chain_id": "10ba5bd926fc0541dcfea83593fad914cde23978f01445192b174db51899f633",
+        "core_symbol": "OGC",
+        "prefix": "OGC"}
+}

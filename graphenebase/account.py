@@ -142,7 +142,7 @@ class Address(object):
            Address("GPHFN9r6VYzBK8EKtMewfNbfiGCr56pHDBFi")
 
     """
-    def __init__(self, address=None, pubkey=None, prefix="GPH"):
+    def __init__(self, address=None, pubkey=None, prefix="OGC"):
         self.prefix = prefix
         if pubkey is not None:
             self._pubkey = Base58(pubkey, prefix=prefix)
@@ -215,7 +215,7 @@ class PublicKey(Address):
                       PublicKey("xxxxx").unCompressed()
 
     """
-    def __init__(self, pk, prefix="GPH"):
+    def __init__(self, pk, prefix="OGC"):
         self.prefix = prefix
         self._pk = Base58(pk, prefix=prefix)
         self.address = Address(pubkey=pk, prefix=prefix)
@@ -301,7 +301,7 @@ class PrivateKey(PublicKey):
             Instance of ``Address`` using uncompressed key.
 
     """
-    def __init__(self, wif=None, prefix="GPH"):
+    def __init__(self, wif=None, prefix="OGC"):
         if wif is None:
             import os
             self._wif = Base58(hexlify(os.urandom(32)).decode('ascii'))

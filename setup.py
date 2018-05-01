@@ -11,28 +11,28 @@ except LookupError:
     ascii = codecs.lookup('ascii')
     codecs.register(lambda name, enc=ascii: {True: enc}.get(name == 'mbcs'))
 
-VERSION = '0.6.1'
+VERSION = '1.0.0'
 
 setup(
-    name='graphenelib',
+    name='onegramlib',
     version=VERSION,
-    description='Python library for graphene-based blockchains',
+    description='Python library for onegram-based blockchains',
     long_description=open('README.md').read(),
-    download_url='https://github.com/xeroc/python-graphenelib/tarball/' + VERSION,
-    author='Fabian Schuh',
-    author_email='Fabian@chainsquad.com',
-    maintainer='Fabian Schuh',
-    maintainer_email='Fabian@chainsquad.com',
-    url='http://www.github.com/xeroc/python-graphenelib',
+	download_url='https://https://gitlab.com/onegram-developers/python-onegramlib/-/archive/' + VERSION + '/python-onegramlib-' + VERSION + '.zip',
+    author='Frantisek Horvath',
+    author_email='frantisek.horvath@01cryptohouse.com',
+    maintainer='Frantisek Horvath',
+    maintainer_email='frantisek.horvath@01cryptohouse.com',
+    url='https://gitlab.com/onegram-developers/python-onegramlib',
     keywords=[
-        'graphene',
+        'onegram',
         'api',
         'rpc',
         'ecdsa',
         'secp256k1'
     ],
-    packages=["grapheneapi",
-              "graphenebase",
+    packages=["onegramapi",
+              "onegrambase",
               ],
     install_requires=["ecdsa",
                       "requests",

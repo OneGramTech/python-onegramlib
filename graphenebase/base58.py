@@ -6,16 +6,10 @@ import logging
 log = logging.getLogger(__name__)
 
 """ Default Prefix """
-PREFIX = "GPH"
+PREFIX = "OGC"
 
 known_prefixes = [
-    PREFIX,
-    "BTS",
-    "MUSE",
-    "TEST",
-    "STM",
-    "GLX",
-    "GLS",
+    PREFIX
 ]
 
 
