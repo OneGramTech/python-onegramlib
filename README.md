@@ -1,24 +1,13 @@
-Python Library for Graphene
+Python Library for OneGram
 ===========================
 
-Python 3 library for Graphene 2.0!
+Python 3 library for OneGram!
 
 **Stable**
-
-[![docs master](https://readthedocs.org/projects/python-graphenelib/badge/?version=latest)](http://python-graphenelib.readthedocs.io/en/latest/)
-[![Travis master](https://travis-ci.org/xeroc/python-graphenelib.png?branch=master)](https://travis-ci.org/xeroc/python-graphenelib)
-[![codecov](https://codecov.io/gh/xeroc/python-graphenelib/branch/master/graph/badge.svg)](https://codecov.io/gh/xeroc/python-graphenelib)
-
 
 [![PyPI](https://img.shields.io/pypi/dm/graphenelib.svg?maxAge=2592000)]()
 [![PyPI](https://img.shields.io/pypi/dw/graphenelib.svg?maxAge=2592000)]()
 [![PyPI](https://img.shields.io/pypi/dd/graphenelib.svg?maxAge=2592000)]()
-
-**Develop**
-
-[![docs develop](https://readthedocs.org/projects/python-graphenelib/badge/?version=develop)](http://python-graphenelib.readthedocs.io/en/develop/)
-[![Travis develop](https://travis-ci.org/xeroc/python-graphenelib.png?branch=develop)](https://travis-ci.org/xeroc/python-graphenelib)
-[![codecov develop](https://codecov.io/gh/xeroc/python-graphenelib/branch/develop/graph/badge.svg)](https://codecov.io/gh/xeroc/python-graphenelib)
 
 Installation
 ------------
@@ -26,12 +15,12 @@ Installation
 Install with `pip`:
 
     $ sudo apt-get install libffi-dev libssl-dev python-dev
-    $ pip3 install graphenelib
+    $ pip3 install onegramlib
 
 Manual installation:
 
-    $ git clone https://github.com/xeroc/python-graphenelib/
-    $ cd python-graphenelib
+    $ git clone git@gitlab.com:onegram-developers/python-onegramlib.git
+    $ cd python-onegramlib
     $ python3 setup.py install --user
 
 Dependencies
@@ -50,7 +39,7 @@ present:
 Upgrade
 -------
 
-    $ pip install --user --upgrade graphenelib
+    $ pip install --user --upgrade onegramlib
 
 Documentation
 -------------
