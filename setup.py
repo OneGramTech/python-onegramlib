@@ -11,12 +11,12 @@ except LookupError:
     ascii = codecs.lookup('ascii')
     codecs.register(lambda name, enc=ascii: {True: enc}.get(name == 'mbcs'))
 
-VERSION = '1.0.2'
+VERSION = '1.0.3'
 
 setup(
     name='onegramlib',
     version=VERSION,
-    description='Python library for onegram-based blockchains',
+    description='Python library for OneGram project graphene-based blockchains',
     long_description=open('README.md').read(),
 	download_url='https://gitlab.com/onegram-developers/python-onegramlib/-/archive/' + VERSION + '/python-onegramlib-' + VERSION + '.zip',
     author='Frantisek Horvath',
@@ -31,8 +31,8 @@ setup(
         'ecdsa',
         'secp256k1'
     ],
-    packages=["onegramapi",
-              "onegrambase",
+    packages=["grapheneapi",
+              "graphenebase",
               ],
     install_requires=["ecdsa",
                       "requests",
