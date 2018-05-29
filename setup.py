@@ -11,7 +11,7 @@ except LookupError:
     ascii = codecs.lookup('ascii')
     codecs.register(lambda name, enc=ascii: {True: enc}.get(name == 'mbcs'))
 
-VERSION = '1.0.4'
+VERSION = '1.0.5'
 
 setup(
     name='onegramlib',
